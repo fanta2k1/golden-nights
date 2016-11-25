@@ -50,7 +50,7 @@
 					} 
 					else if (rslt == 4)
 					{
-						$("#result").append("4성<br />");
+						$("#result").append("<font color='purple'>4성</font><br />");
 						cnt4++;
 					}
 					else if (rslt == 5)
@@ -61,7 +61,7 @@
 					}
 				}
 
-				$("#summary").text("3성 : " + cnt3 + ", 4성 : " + cnt4 + ", 5성 : " + cnt5);
+				$("#summary").text("3성 : " + cnt3 + ", <font color='purple'>4성 : " + cnt4 + "</font>, <font color='red'>5성 : " + cnt5 + "</font>");
 			});
 		})
 
