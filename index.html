@@ -45,23 +45,23 @@
 
 					if (rslt == 3)
 					{
-						$("#result").append("3성<br />");
+						$("#result").append("★★★<br />");
 						cnt3++;
 					} 
 					else if (rslt == 4)
 					{
-						$("#result").append("<font color='purple'>4성</font><br />");
+						$("#result").append("<font color='purple'>★★★★</font><br />");
 						cnt4++;
 					}
 					else if (rslt == 5)
 					{
 						var chrrad = Math.floor(Math.random() * fivestar.length);
-						$("#result").append("<font color='red'>5성 : " + fivestar[chrrad] + "</font><br />");
+						$("#result").append("<font color='red'>★★★★★ : " + fivestar[chrrad] + "</font><br />");
 						cnt5++;
 					}
 				}
 
-				$("#summary").html("3성 : " + cnt3 + ", <font color='purple'>4성 : " + cnt4 + "</font>, <font color='red'>5성 : " + cnt5 + "</font>");
+				$("#summary").html("★★★ : " + cnt3 + ", <font color='purple'>★★★★ : " + cnt4 + "</font>, <font color='red'>★★★★★ : " + cnt5 + "</font>");
 			});
 		})
 
